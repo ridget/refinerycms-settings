@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gemspec
 
 gem 'refinerycms', :git => 'git://github.com/refinery/refinerycms.git'
-
+gem 'psych'
 group :development, :test do
   gem 'refinerycms-testing', :git => 'git://github.com/refinery/refinerycms.git'
   gem 'guard-rspec', '~> 0.6.0'
